@@ -1,0 +1,58 @@
+.heading{
+    background-color: beige;
+    margin-top: 0;
+}
+
+.heading .name{
+    float: right;
+}
+
+.heading .name h4{
+    text-align: left;
+    color: grey;
+    font-display: block;
+}
+
+.heading .name h2{
+    text-align: left;
+    color: white;
+    font-style: normal;
+}
+
+.heading .image img{
+    height: 100px;
+    width: 100px;
+}
+
+.heading .image{
+    float: left;
+    width: 30%;
+
+}
+
+/*body{
+    background-color: white;
+}
+
+.details{
+    text-align: left;
+    background-color: darkslategrey;
+    display: flex;
+}
+
+.details .icons  .checked{
+    color: orange;
+}
+
+.details .icons .map-marker{
+    color: white;
+}
+
+.details .icons .phone{
+    color: white;
+}
+
+.details .icons .envelope{
+    color: white;
+}
+  */

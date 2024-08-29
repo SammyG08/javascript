@@ -1,0 +1,20 @@
+body{
+    box-sizing: border-box;
+}
+*{
+    text-decoration: none;
+}
+div{
+    border: none;
+    background-color: gainsboro;
+    width: 500px;
+    height: 10vh;
+    text-align: center;
+    padding-top: 20px;
+    margin: 100px 0px 0px 100px;
+}
+div:hover{
+    transform:rotateX(150deg);
+    transform:rotateY(150deg);
+    transform:rotateZ(150deg);
+}

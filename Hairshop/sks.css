@@ -1,0 +1,74 @@
+/* css stands for cascading stylesheet */
+body {
+    background-color:aqua ;
+    background-image: url("");
+    border-style: hidden;
+    border-radius: 4px;
+   
+ }
+ /* selector when using identifiers*/
+ #ourshop {
+   font-style: oblique;
+   margin-right: 20px;
+ }
+ /* selector for ids */
+ #registration {
+   font-style: oblique;
+   margin-right: 20px ;
+ }
+ /* selector for classes */
+ .Greeting {
+      font-style: normal;
+ }
+ /* universal selector selectors every element in the html document */
+ * {
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+   text-transform: capitalize;
+ }
+ #Password {
+     margin-top: 30px;
+ }
+ #username {
+   margin-top: 30px;
+ }
+ nav, a {
+   margin-top: 10px;
+   text-decoration: none;
+ }
+ .questionnaire {
+   font-style: normal;
+   text-decoration: overline black dotted 1px;
+   margin-top: 50px;
+ }
+  table, th, td { 
+   border: 2px solid;
+   padding: 2px;
+   width: 50%;
+   border-collapse: collapse;
+  }
+  #item:hover {
+   background-color: rgb(42, 157, 165);
+   cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+

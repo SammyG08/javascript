@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width:device-width inital-scale:1.0" />
+    <link rel="icon" href="#" />
+    <title>School Stuff</title>
+</head>
+<body>
+    <form action="mailto:gbedysamuel@gmail.com" method="get" enctype="text/plain">
+        <label for="firstname">Firstname</label><br />
+        <input type="text" name="firstname" value="" /><br />
+
+        <label for="lastname">Lastname</label><br />
+        <input type="text" name="lastname" value="" /><br />
+
+        <label for="password">Password</label><br />
+        <input type="password" name="password" value="" size="15" required /> <br /><br />
+
+        <input type="submit" value="Done" />
+
+        <input align="center" type="reset" value="Click to restart" /><br /><br />
+
+        <input type="search" name="search" value="search" size="15" /> <br /><br />
+
+
+    </form>
+
+
+    <form>
+        <label for=" football">Football</label>
+        <input type="checkbox" name="football" value="football" checked /><br />
+
+        <label for="basketball">Basketball</label>
+        <input type="checkbox" name="basketball" value="basketball" /><br />
+
+        <label for="volleyball">Volleyball</label>
+        <input type="checkbox" name="volleyball" value="volleyball" /><br /><br />
+
+
+        <label for="C">C</label>
+        <input type="radio" name="C" value="programming" /><br /> <!-- autofocus is usually used in selection box -->
+
+        <label for="C++">C++</label>
+        <input type="radio" name="C++" value="programming" /><br />
+
+        <label for="Python">Python</label>
+        <input type="radio" name="Python" value="programming" /><br /><br />
+
+        <input id="dob" name="dob" type="date" /><br /><br />
+        <input id="expiry" name="expiry" type="month" required /><br /><br />
+        <input id="time" name="time" type="time" /><br /><br />
+        <input id="color" value="color" type="color" /><br /><br />
+        <input type="number" min="0" max="10" step="1" value="0" /><br /><br />
+        <input type="range" min="0" max="10" step="1" value="0" /><br /><br />
+
+        <select multiple size="2">
+            <!--The multiple attribute indicates that it is a scrolling list if the size is greateer than 1 then it will also be displayed as a scrolling list if the mltiple attribute is omitted-->
+            <option>C++</option>
+            <option>Python</option>
+            <option>Java</option>
+            <option selected>MYSQL</option>
+            <option>C#</option>
+        </select><br /><br />
+
+        <select>
+            <option>Choose a color</option>
+            <option>Brown</option>
+            <option>Beige</option>
+            <option>Black</option>
+            <option>Blue</option>
+        </select><br /><br />
+
+        <textarea cols="50" rows="10">
+            Write a short note about yourself
+        </textarea>
+
+    </form>
+</body>
+</html>

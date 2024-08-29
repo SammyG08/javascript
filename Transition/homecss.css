@@ -1,0 +1,16 @@
+div{
+    margin: 30vh 0px 0px 40vw;
+    height: 15vh;
+    width: 15vw;
+    transition: width 5s, height 5s, background-color 5s, transform 5s;
+    transition-timing-function: ease-out;
+    text-align :center;
+    padding-top: 20px;
+    background-color: beige;   
+}
+div:hover{
+    width:30vw;
+    height: 40vh;
+    transform: rotate(360deg);
+    background-color: firebrick;
+}

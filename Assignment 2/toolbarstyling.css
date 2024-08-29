@@ -1,0 +1,174 @@
+body{
+    display:flex;
+    background-image: url("IMG_6668.JPG");
+    color:white;
+    justify-content:space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+h3{
+    color:gray;
+    font-weight: 40px;
+    font-size: 20px;
+    line-height: 100px;
+}
+a{
+    color:gray;
+}
+button{
+    border:none;
+    color:gray;
+    background-color: transparent;
+}
+*{
+    text-decoration: none;
+    overflow-x: hidden;
+}
+.toolbar{
+    background-color:black;
+    min-height: 100vh;
+    margin: -5px 0px 0px -6px;
+    padding:15px;
+}
+table#class-list{
+    padding: 25px;
+    margin-right: 650px;
+    margin-top: 50px;
+    text-align: center;
+    border-collapse: collapse;
+    border-radius: 15px;
+    font-size: 20px;
+    color:brown;
+    width: 99%;
+}
+.main{
+    height: 100%;
+    background-color:lavender;
+}
+li{
+    border-collapse:collapse;
+    padding: 79px;
+    border: 1px solid black;
+}
+ul{
+    list-style-type: none;
+}
+table#timetable{
+    border:collapse;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: beige;
+    margin-right: 400px;
+    text-align: center;
+    height: 60vh;
+    width:100vh;
+}
+#timetabel-tr, #timetable-td, #timetable-th{
+    padding: 20px;
+    border: 1px solid black;
+    color: black;
+}
+caption{
+    line-height: 100px;
+    font-size: 25px;
+    padding-top: 30px;
+}
+table.student-info{
+    border:2px solid black;
+    padding: 25px;
+    background-color: aqua;
+    margin-right: 300px;
+    margin-top: 70px;
+    text-align: center;
+    border-collapse: collapse;
+    border-radius: 15px;
+    font-size: 20px;
+    color:mediumvioletred;
+}
+tr#student-tr, td#student-td, th#student-th{
+    border: 2px solid gray;
+    border-spacing:0px;
+    padding: 30px;
+    width: 50vh;
+    background-color:azure;
+    
+}
+table.resultslip{
+    border:2px solid black;
+    background-color:aliceblue;
+    text-align: center;
+    border-collapse: collapse;
+    border-radius: 35px;
+    font-size: 20px;
+    margin-right: 100px;
+    margin-top: 80px;
+    color:mediumvioletred;
+}
+tr#slip-tr, td#slip-td, th#slip-th{
+    border-radius: 50px;
+    padding: 20px;
+    width: 28vh;
+    background-color:aliceblue;  
+}
+table.reg{
+    text-align: left;
+    border-collapse: collapse;
+    font-size: 20px;
+    margin-top: 0px;
+    background-color: white;
+    width: 95%;
+}
+tr#reg-th, td#reg-td, th#reg-th{
+    padding: 30px 0px 20px 5px;
+    width: 60vh; 
+    border: 1px solid black;          
+}
+.headings{
+    background-color:linen;
+    line-height: 100px;
+    margin-left: -20px;
+}
+p#reg-p{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 30px;
+}
+.approval{
+    border:none;
+    padding: 30px;
+    border-collapse: collapse;
+    font-size: 20px;
+    font-weight: 20px;
+    text-align:left;
+    width:99%;
+    padding-bottom: 100px;
+    margin-left: 40px;
+}
+#empty{
+    border-bottom-style: dotted;
+    border-bottom-color: black;
+    border-bottom-width: 2px;
+    margin-left: 20px;
+}
+.data{
+    border:none;
+    padding: 20px;
+}
+.info{
+    background-color:white;
+    padding-bottom: 100px;
+    margin-left: -10px;
+    width:100%;
+    color: mediumvioletred;
+}
+#text{
+    visibility: hidden;
+}
+#td{
+    padding-top: 30px;
+    border:none;
+}
+#th{
+    border: none;
+}

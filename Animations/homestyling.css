@@ -1,0 +1,16 @@
+@keyframes animationname{
+    0%{background-color: red;}
+    10%{background-color: blue;}
+    25%{background-color:beige;}
+    50%{background-color:gold;}
+    75%{background-color:darkgrey;}
+    100%{background-color:lemonchiffon ;}
+}
+body{
+    min-height: 100vh;
+    min-width: 100vh;
+    overflow-y: hidden;
+    animation: animationname 5s ease-in 2s 2 alternate;
+    /* animation property : name of animation, timing, animation timing function, delay, iteration count, animation direction*/ 
+ 
+}

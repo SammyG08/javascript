@@ -1,0 +1,56 @@
+.one, .two, .three, .four, .five, .six{
+    float:left;
+}
+
+.three{
+    margin-left: -26px;
+}
+
+.four{
+    margin-left: 143px;
+}
+
+.five{
+    margin-left: -26px;
+}
+
+.six{
+    margin-left: 149px;
+}
+
+.two{
+    margin-left: 170px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+#eight, #twelve{
+    width:173px;
+}
+
+#submit-button{
+    margin-top: 20px;
+    border:none;
+    border-radius: 5px;
+    width: 60px;
+    padding: 7px 0px;
+    font-weight: bold;
+    background-color:gainsboro;
+    color:brown;
+}
+body{
+    background-color: beige; 
+    width: 100%vh; 
+    font-weight:bold; 
+    color:gray;
+}
+table{
+    padding:50px 50px 30px 50px; 
+    border: none; 
+    margin-top: 15%; 
+    max-width:40%; 
+    text-align: center; 
+    position:relative;
+}

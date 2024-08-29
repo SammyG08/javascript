@@ -1,0 +1,86 @@
+﻿body
+{
+    background-color:mediumvioletred;
+    font-weight:bold;
+    color:white;
+    resize:vertical;
+}
+*{
+    box-sizing:border-box;
+}
+div.head{
+    text-align:center;
+    min-height: 40px;
+    margin-bottom: 40px;
+    position:sticky;
+    top:0px;
+    background-color:mediumvioletred;
+    padding: 15px;
+    margin-left: 150px;
+}
+h1{
+    color:antiquewhite;
+    font-size: 35px;
+    font-family:cursive;
+}
+h3{
+    color:azure;
+    font-size: 25px;
+}
+
+.flex-container, .firstreferee-flexbox, .secondreferee-flexbox{
+    position: relative;
+    flex-wrap: wrap;
+    width: 60%;
+    display: flex;
+    left: 380px;
+    justify-content: space-evenly;
+    justify-content: space-around;
+    justify-content: space-between;
+    z-index: -1;
+}
+.user, .firstreferee, .secondreferee, .send{
+    text-align: center;
+    margin-bottom: 10px;
+    height:  60px;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.applicant-position{
+    margin-left:14px;
+}
+#dob{
+    width:185px;
+}
+.applicant-address, .applicant-eduhistory, .applicant-qualifications, .applicant-emphistory, .applicant-personalstatement, .applicant-workingexp{
+    text-align: left;
+    margin-left: 380px;
+}
+.firstreferee-address, .secondreferee-address{
+    margin-left: 38px;
+}
+.firstreferee-number, .secondreferee-number{
+    margin-right:290px;
+}
+h4{
+    color:darkgray;
+    font-size: 20px;
+    text-decoration-line:underline;
+}
+textarea, input{
+    background-color:transparent;
+    outline-color:darkmagenta;
+    color:white;
+    padding: 10px 15px 0px 0px;
+    border: 3px solid floralwhite;
+    cursor:auto;
+    pointer-events:auto;
+}
+#send{
+    border:2px solid floralwhite;
+    border-radius: 5px;
+    color:white;
+    padding:5px 15px;
+    font-weight:bold;
+    font-size: 15px;
+}

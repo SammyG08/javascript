@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Forms</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width:device-width, initial-scale: 1" />
+    <link rel="stylesheet" href="stylesheet.css" />
+</head>
+<body>
+
+    <div class=" head">
+        <h1>SpeedyPC</h1>
+        <h3>Job Application Form</h3>
+    </div>
+    <div class="user"><h4>Applicant Details</h4></div>
+    <form action="mailto:gbedysamuel@gmail.com" method="post" enctype="text/plain">
+       
+            <div class="applicant-name">
+                <label for=" name">Name</label>
+                <input type="text" value="" name="name"/><br /><br />
+            </div>
+            <div class="applicant-nationality">
+                <label for=" nationality">Nationality</label>
+                <input type="text" value="" name="nationality" /><br /><br />
+            </div>
+            <div class="applicant-number">
+                <label for="number">Phone Number</label>
+                <input type="number" value="" name="number" required /><br /><br />
+            </div>
+            <div class="applicant-email">
+                <label for=" email">Email</label>
+                <input type="email" value="" name="email" required /><br /><br />
+            </div>
+            <div class="applicant-position">
+                <label for="position">Position </label>
+                <input type="text" value="" name=" position" /><br /><br />
+            </div>
+            <div class="applicant-dob">
+                <label for="dob">Date Of Birth</label>
+                <input name="dob" id="dob" type="date" /><br /><br />
+            </div>
+       
+        <div class="applicant-address">
+            <p>Write your address/addresses here:</p>
+            <textarea rows="10" cols="70"></textarea>
+        </div>
+        <div class="applicant-eduhistory">
+            <p>Educational History:</p>
+            <textarea rows="10" cols="70"></textarea>
+        </div>
+        <div class="applicant-qualifications">
+            <p>Qualifications:</p>
+            <textarea rows="10" cols="70"></textarea>
+        </div>
+        <div class="applicant-emphistory">
+            <p>Employment History:</p>
+            <textarea rows="10" cols="70"></textarea>
+        </div>
+        <div class="applicant-personalstatement">
+            <p>Personal Statement:</p>
+            <textarea rows="10" cols="70"></textarea>
+        </div>
+
+        <div class="applicant-workingexp">
+            <p>Working Experience:</p>
+            <input type="range" value="number" id="number" min="1" max="18" step="1" />
+        </div>
+
+        <div class="firstreferee">
+            <h4>First Referee</h4>
+        </div>
+            <div class="firstreferee-name">
+                <label for="name">Referee name</label>
+                <input type="text" value="" name="name" required /><br /><br />
+            </div>
+            <div class="firstreferee-occupation">
+                <label for="occupation">Occupation</label>
+                <input type="text" value="" name="occupation" required /><br /><br />
+            </div>
+            <div class="relation-to-firstreferee">
+                <label for="relation">Relation</label>
+                <input type="text" value="" name="relation" required /><br /><br />
+            </div>
+            <div class="firstreferee-address">
+                <label for="address">Address</label>
+                <input type="text" value="" name="address" required /><br /><br />
+            </div>
+            <div class="firstreferee-number">
+                <label for="number">Phone</label>
+                <input type="text" value="" name="number" required /><br /><br />
+            </div>
+       
+        <div class="secondreferee"><h4>Second Referee</h4></div>
+        
+            <div class="secondreferee-name">
+                <label for="secondname">Referee name</label>
+                <input type="text" value="" name="secondname" required /><br /><br />
+            </div>
+            <div class="secondreferee-occupation">
+                <label for="secondoccupation">Occupation</label>
+                <input type="text" value="" name="secondoccupation" required /><br /><br />
+            </div>
+            <div class="relation-to-secondreferee">
+                <label for="secondrelation">Relation</label>
+                <input type="text" value="" name="secondrelation" required /><br /><br />
+            </div>
+            <div class="secondreferee-address">
+                <label for="secondaddress">Address</label>
+                <input type="text" value="" name="secondaddress" required /><br /><br />
+            </div>
+            <div class="secondreferee-number">
+                <label for="secondnumber">Phone</label>
+                <input type="text" value="" name="secondnumber" required /><br /><br />
+            </div>
+       
+        <div class="send">
+            <input id="send" type="submit" value="Done" />
+        </div>
+    </form>
+</body>
+</html>

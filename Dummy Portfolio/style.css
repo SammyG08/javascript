@@ -1,0 +1,247 @@
+﻿body{
+    background-color:aqua;
+    overflow-x: hidden;
+}
+
+.body{
+    background-color:darkslateblue;
+    margin:-10px;
+}
+
+img {
+    float:left;
+    height: 135px;
+    width: 135px;
+    margin-left: 15px;
+    margin-top:2px;
+    
+}
+
+.header{
+    height:100px;
+    text-align:left;
+    padding-left: 250px;  
+}
+
+h2{
+    font-style: normal;
+    color: whitesmoke;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h4.job{
+    font-display: block;
+    color:grey;
+    font-family:Cambria;
+}
+
+.info{
+    float:left;
+    margin-top: 9px;
+    margin-left:-135.5px;
+    background-color:darkseagreen;
+    padding: 8px;
+    width: 119px;
+    position:relative;
+}
+
+.contact{
+    color:brown;
+}
+
+.address{
+    color:brown;
+    font-size: small;
+    position:absolute;
+    right:5px;
+    top:77px;
+    
+}
+
+.profile{
+    text-align:left;
+    background-color:transparent;
+    color:gray;
+    position:relative;
+    top:0px;
+    left:140px;
+}
+
+.icons{
+    position:relative;
+    left:0px;
+    top: 0px;
+}
+
+.self{
+    font-display:block;
+    font-style:normal;
+    font-family:Arial;
+    padding-left: 39px;
+    margin-top: -6px;
+    
+}
+
+
+*{
+   text-decoration:none;
+}
+
+.phone{
+    position: relative;
+    top:0px;
+    left:0px;
+}
+
+.number{
+    position:absolute;
+    right:5px;
+    top:95px;
+    font-size:small;
+    color:brown;
+}
+
+.mail {
+    position:relative;
+    top: 0px;
+    left:0px;
+}
+
+.email {
+    position:absolute;
+    right:5px;
+    top: 113px;
+    font-size: small;
+    color: brown;
+}
+
+.skills {
+    color:brown;
+}
+
+.category{
+    color:brown;
+    font-size:small;
+    position: relative;
+    top:4px;
+    left:0px;
+}
+
+.hobby{
+    color:brown;
+}
+
+.hobs{
+    position:relative;
+    top:-12px;
+}
+
+.lang{
+    color:brown;
+}
+
+.border{
+    border-left:solid;
+    border-left-color:black;
+    border-left-width:2px;
+}
+
+.dot{
+    position:relative;
+    top:-17px;
+    left: -5px;
+}
+
+.language1{
+    position:relative;
+}
+
+.name{
+    position:absolute;
+    right:65px;
+    top:23px;
+    font-size:small;
+    color:brown;
+}
+
+.language2{
+    position:relative;
+}
+
+.dot2 {
+    position: relative;
+    top: -20px;
+    left:-5px;
+}
+
+.name2{
+    position:absolute;
+    right:70px;
+    top:-14px;
+    font-size:small;
+    color:brown;
+}
+
+.language3{
+    position:relative;
+}
+
+.dot3{
+    position:relative;
+    top:-17px;
+    left:-3px;
+}
+
+.name3{
+    position:absolute;
+    right:65px;
+    top:-14px;
+    font-size:small;
+    color:brown;
+}
+
+.me{
+    position:relative;
+    top:-10px;
+    left:40px;
+    width:900px;
+    display:inline-block;
+}
+
+.bodyborder {
+    border-left: solid;
+    border-left-color:darkgray;
+    border-left-width: 2px;
+    position:absolute;
+    left:60px;
+    top:40px;
+}
+
+.bodydot{
+    position:absolute;
+    left:-5px;
+    top:-13px;
+    color:darkgray;
+}
+
+.edudot {
+    position: absolute;
+    left: -5px;
+    top: 190px;
+    color: darkgray;
+}
+
+.edu {
+    font-display: block;
+    font-style: normal;
+    font-family: Arial;
+    padding-left: 39px;
+    margin-top: 11px;
+}
+
+.summary {
+    position: relative;
+    top: -10px;
+    left: 40px;
+    width: 900px;
+}

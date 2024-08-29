@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name= viewport content="width=device-width, initial-scale=1">
+        <meta name="keyword" content="weight, height">
+        <title>BMI CALCULATOR</title>
+        <link rel="stylesheet" href="index.css">
+        <script src="index.js" defer></script>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>
+                    <form>
+                        <label for="height"><strong>Height</strong> </label>
+                        <input id= height name="height" type="text" value="cm">
+                    </form>
+                </td>
+                <td>
+                    <form>
+                        <label for="weight"><strong>Weight</strong></label>
+                        <input id="weight" type="text" name="weight" value="kg">
+                    </form>
+                </td>
+                <td>
+                    <button id="imperial"><strong>Impirical</strong></button>
+                </td>
+                <td>
+                    <button id="emperical"><strong>Empirical</strong></button>
+                </td>
+            </tr>
+            <tr>
+                <td id=calculate colspan="3">
+                    <button id="button"><strong>Calculate</strong></button>
+                </td>
+                <td id=reset colspan="2">
+                    <button id="reset-button"><strong>Reset</strong></button>
+                </td>
+            </tr>
+            <tr>
+                <td id="result" colspan="4">
+                    <strong>BMI :<strong id="bmi"></strong> </strong>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,38 @@
+body{
+    box-sizing: border-box;
+}
+table{
+    background-color:chocolate;
+    color:gold;
+    text-align: center;
+    border-width: 13px;
+    border-style:inset;
+    border-color: orange linen linen orange;   
+    padding: 0px 50px 0px 0px;    
+}
+div{
+    border-width: 13px;
+    border-style: outset;
+    border-color:linen orange orange linen;
+    width:fit-content;
+    margin-left: 78vh;
+    margin-top: 100px;
+}
+span{
+    font-size: 30px;
+}
+.oranges, .apples{
+    text-align: left;
+    padding-top: 0px;
+    padding-left: 3px;
+}
+td{
+    text-align: center;
+    padding: 20px;
+}
+.prod{
+    padding-left: 50px;
+}
+.price{
+    padding-right: 0px;
+}

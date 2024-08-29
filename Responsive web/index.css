@@ -1,0 +1,23 @@
+[class = navbar]{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    transform: translateY(20%) ;
+    height: 30px;
+    align-items: center;
+}
+body{
+    background-color: lightblue;
+    box-sizing: border-box;
+}
+
+@media only screen and(max-width: 1000px) {
+    [class = navbar]{
+        flex-direction: column;
+    }
+}
+@media only scren and(max-width: 1000px){
+    body{
+        background-color: lightblue;
+    }
+}

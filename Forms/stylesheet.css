@@ -1,0 +1,121 @@
+﻿body
+{
+    background-color:maroon;
+    font-weight:bold;
+    color:white;
+    resize:vertical;
+}
+*{
+    box-sizing:border-box;
+}
+div.head{
+    text-align:center;
+    min-height: 40px;
+    margin-bottom: 40px;
+    position:sticky;
+    top:0px;
+    margin-left:35px;
+    background-color:maroon;
+    padding: 15px;
+ }
+h1{
+    color:antiquewhite;
+    font-size: 35px;
+    font-family:cursive;
+}
+h3{
+    color:azure;
+    font-size: 25px;
+}
+.applicant-name,.applicant-nationality, .applicant-address, .applicant-position, .applicant-dob, .applicant-number, .applicant-email{
+    text-align:center;
+}
+
+.user, .firstreferee, .secondreferee, .send{
+    text-align: center;
+    margin-bottom: 10px;
+    height:  60px;
+    margin-top: 20px;
+    margin-left:50px;
+}
+.applicant-position{
+    margin-left:14px;
+}
+#dob{
+    width:185px;
+}
+.applicant-address, .applicant-eduhistory, .applicant-qualifications, .applicant-emphistory, .applicant-personalstatement, .applicant-workingexp{
+    margin: 40px 0px 0px 50px;
+    text-align: center;
+}
+.firstreferee-address, .firstreferee-occupation, .firstreferee-name, .firstreferee-number, .relation-to-firstreferee {
+    text-align: center;
+}
+.secondreferee-address, .secondreferee-occupation, .secondreferee-name, .secondreferee-number, .relation-to-secondreferee{
+    text-align:center;
+}
+h4{
+    color:darkgray;
+    font-size: 20px;
+    text-decoration-line:underline;
+}
+textarea, input{
+    background-color:transparent;
+    outline-color:darkmagenta;
+    color:white;
+    padding: 10px 15px 0px 0px;
+    border: 3px solid azure;
+    cursor:auto;
+    pointer-events:auto;
+}
+form{
+    pointer-events : auto;
+    cursor:auto;
+}
+input{
+    width:40vh;
+    border-radius:10px;
+    line-height:35px;
+}
+.applicant-nationality{
+    margin-right:35px;
+}
+.applicant-number{
+    margin-right: 60px;
+}
+.applicant-position{
+    margin-right: 30px;
+}
+.applicant-dob{
+    margin-right: 50px;
+}
+.firstreferee-occupation, .secondreferee-occupation{
+    margin-left: 13px;
+}
+.relation-to-firstreferee, .firstreferee-address ,.relation-to-secondreferee, .secondreferee-address{
+    margin-left: 29px;
+}
+.firstreferee-number, .secondreferee-number{
+    margin-left: 36px;
+}
+#dob {
+    width: 40vh;
+}
+#send {
+    border: 2px solid magenta;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 15px;
+    font-weight: bold;
+    font-size: 15px;
+    width:90px;
+    line-height:20px;
+    background-color:magenta;
+}
+.send{
+    margin: 50px 0px 50px 300px;
+}
+#number {
+    line-height: 30px;
+    color: white;
+}    

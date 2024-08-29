@@ -1,0 +1,41 @@
+﻿body {
+    background-image: url("sam.jpg");
+    text-align: center;
+    font-weight: bold;
+    color:white;
+}
+
+div{
+    margin-top: 10%;
+}
+
+button {
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    background-color: darkred;
+    padding: 25px;
+    width: 200px;
+    font-weight: bold;
+}
+
+span{
+    color:white;
+    font-size:large;
+    font-weight: bold;
+}
+
+h1{
+    font-size:70px;
+    font-weight:900;
+}
+
+h2{
+    font-size:70px;
+    font-weight: 700
+}
+
+#entries{
+    font-size: 70px;
+    font-weight: 700;
+    color: white;
+}

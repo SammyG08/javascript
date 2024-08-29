@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0" />
+    <title>Attendance App</title>
+    <!--Favicon <link rel="icon" src="image.jl"/>-->
+
+    <link rel="stylesheet" href="format.css" />
+    
+</head>
+<body>
+
+
+    <div>
+        <h1>Students in Class Today</h1>
+        <h1 id="number" style="font-size:80px; font-weight:700">0</h1><br />
+
+        <button class="button1" align="center" onclick="increment()"><span>INCREMENT</span></button><br /><br />
+        <button class="button2" align="center" onclick="save()" ><span>SAVE</span></button><br /><br />
+
+
+        <h2 class="count-history">Previous Attendance Number:<span id="entries"></span></h2>\
+       
+    </div>
+    
+    
+    
+    <script src="/script.js"></script>
+</body>
+</html>

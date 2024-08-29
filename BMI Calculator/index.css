@@ -1,0 +1,48 @@
+body{
+    background-color:cadetblue;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+table{
+    height: 12vh;
+    background-color: transparent;
+    transform: translate(35vw, 30vh);
+    color:ivory;
+}
+#button, #calculate{
+    text-align: center;
+    padding: 10px;
+    transform: translate(-10px, 5px);
+    color:chocolate;
+}
+input{
+    border: 1px solid gray;
+    padding: 10px;
+    outline: none;
+}
+#imperial, #emperical{
+    margin-left: 10px;
+    padding: 10px;
+}
+#result, #result:first-child{
+    padding: 10px;
+    text-align: left;
+    font-size: 30px;
+    border: 1px solid gray;
+    width: 10vw;
+    transform: translate(8px, 30px);
+    color:chocolate;
+    background-color: aliceblue;
+}
+#reset-button, #reset{
+    text-align: center;
+    padding: 10px;
+    transform: translate(0px, 5px);
+}
+button{
+    color:chocolate;
+}
+#bmi{
+    margin-left: 20px;
+}
